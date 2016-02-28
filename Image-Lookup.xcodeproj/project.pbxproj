@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4796F9C9E9CE2157380E2DC7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0893189EEC03EC5C094FBE7E /* libPods.a */; };
+		AF469D131C82BF5900EA9136 /* Image_LookupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF469D121C82BF5900EA9136 /* Image_LookupTests.swift */; };
+		AF469D1E1C82BF5900EA9136 /* Image_LookupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF469D1D1C82BF5900EA9136 /* Image_LookupUITests.swift */; };
+		AF469D391C82BF8200EA9136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF469D2C1C82BF8200EA9136 /* AppDelegate.swift */; };
+		AF469D3A1C82BF8200EA9136 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF469D2E1C82BF8200EA9136 /* LaunchScreen.xib */; };
+		AF469D3B1C82BF8200EA9136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF469D301C82BF8200EA9136 /* Main.storyboard */; };
+		AF469D3C1C82BF8200EA9136 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF469D321C82BF8200EA9136 /* ImageDetailViewController.swift */; };
+		AF469D3D1C82BF8200EA9136 /* ImageFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF469D331C82BF8200EA9136 /* ImageFeed.swift */; };
+		AF469D3E1C82BF8200EA9136 /* ImageFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF469D341C82BF8200EA9136 /* ImageFeedTableViewCell.swift */; };
+		AF469D3F1C82BF8200EA9136 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF469D351C82BF8200EA9136 /* Images.xcassets */; };
+		AF469D411C82BF8200EA9136 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF469D371C82BF8200EA9136 /* ResultsTableViewController.swift */; };
+		AF469D421C82BF8200EA9136 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF469D381C82BF8200EA9136 /* SearchViewController.swift */; };
+		AF469D441C82C32200EA9136 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AF469D431C82C32200EA9136 /* Podfile */; };
+		AFEDDAAC1C82C81E00951071 /* SavedPhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEDDAAB1C82C81D00951071 /* SavedPhotosTableViewController.swift */; };
+		AFEDDAAE1C82D0FD00951071 /* SavedPhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEDDAAD1C82D0FD00951071 /* SavedPhotosTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF469D0F1C82BF5900EA9136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF469CF21C82BF5700EA9136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF469CF91C82BF5700EA9136;
+			remoteInfo = "Image-Lookup";
+		};
+		AF469D1A1C82BF5900EA9136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF469CF21C82BF5700EA9136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF469CF91C82BF5700EA9136;
+			remoteInfo = "Image-Lookup";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0047A1A2C4E8F74EE66399F6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		0893189EEC03EC5C094FBE7E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		39221A3C7F68F1F47A6009EF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AF469CFA1C82BF5700EA9136 /* Image-Lookup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image-Lookup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF469D0E1C82BF5900EA9136 /* Image-LookupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image-LookupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF469D121C82BF5900EA9136 /* Image_LookupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_LookupTests.swift; sourceTree = "<group>"; };
+		AF469D141C82BF5900EA9136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF469D191C82BF5900EA9136 /* Image-LookupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image-LookupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF469D1D1C82BF5900EA9136 /* Image_LookupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_LookupUITests.swift; sourceTree = "<group>"; };
+		AF469D1F1C82BF5900EA9136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF469D2B1C82BF8100EA9136 /* Image-Lookup-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Image-Lookup-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF469D2C1C82BF8200EA9136 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF469D2F1C82BF8200EA9136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		AF469D311C82BF8200EA9136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		AF469D321C82BF8200EA9136 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		AF469D331C82BF8200EA9136 /* ImageFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFeed.swift; sourceTree = "<group>"; };
+		AF469D341C82BF8200EA9136 /* ImageFeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFeedTableViewCell.swift; sourceTree = "<group>"; };
+		AF469D351C82BF8200EA9136 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF469D361C82BF8200EA9136 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF469D371C82BF8200EA9136 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		AF469D381C82BF8200EA9136 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		AF469D431C82C32200EA9136 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFEDDAAB1C82C81D00951071 /* SavedPhotosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedPhotosTableViewController.swift; sourceTree = "<group>"; };
+		AFEDDAAD1C82D0FD00951071 /* SavedPhotosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedPhotosTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF469CF71C82BF5700EA9136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4796F9C9E9CE2157380E2DC7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF469D0B1C82BF5900EA9136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF469D161C82BF5900EA9136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD9AA82171BD0759BF541E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0893189EEC03EC5C094FBE7E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF469CF11C82BF5600EA9136 = {
+			isa = PBXGroup;
+			children = (
+				AF469D431C82C32200EA9136 /* Podfile */,
+				AF469CFC1C82BF5800EA9136 /* Image-Lookup */,
+				AF469D111C82BF5900EA9136 /* Image-LookupTests */,
+				AF469D1C1C82BF5900EA9136 /* Image-LookupUITests */,
+				AF469CFB1C82BF5700EA9136 /* Products */,
+				C7A81DD214E9AAB310B8ADAA /* Pods */,
+				2FD9AA82171BD0759BF541E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF469CFB1C82BF5700EA9136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF469CFA1C82BF5700EA9136 /* Image-Lookup.app */,
+				AF469D0E1C82BF5900EA9136 /* Image-LookupTests.xctest */,
+				AF469D191C82BF5900EA9136 /* Image-LookupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF469CFC1C82BF5800EA9136 /* Image-Lookup */ = {
+			isa = PBXGroup;
+			children = (
+				AF469D2C1C82BF8200EA9136 /* AppDelegate.swift */,
+				AF469D2D1C82BF8200EA9136 /* Base.lproj */,
+				AF469D321C82BF8200EA9136 /* ImageDetailViewController.swift */,
+				AF469D331C82BF8200EA9136 /* ImageFeed.swift */,
+				AF469D341C82BF8200EA9136 /* ImageFeedTableViewCell.swift */,
+				AF469D351C82BF8200EA9136 /* Images.xcassets */,
+				AF469D361C82BF8200EA9136 /* Info.plist */,
+				AF469D371C82BF8200EA9136 /* ResultsTableViewController.swift */,
+				AF469D381C82BF8200EA9136 /* SearchViewController.swift */,
+				AF469D2B1C82BF8100EA9136 /* Image-Lookup-Bridging-Header.h */,
+				AFEDDAAB1C82C81D00951071 /* SavedPhotosTableViewController.swift */,
+				AFEDDAAD1C82D0FD00951071 /* SavedPhotosTableViewCell.swift */,
+			);
+			path = "Image-Lookup";
+			sourceTree = "<group>";
+		};
+		AF469D111C82BF5900EA9136 /* Image-LookupTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF469D121C82BF5900EA9136 /* Image_LookupTests.swift */,
+				AF469D141C82BF5900EA9136 /* Info.plist */,
+			);
+			path = "Image-LookupTests";
+			sourceTree = "<group>";
+		};
+		AF469D1C1C82BF5900EA9136 /* Image-LookupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF469D1D1C82BF5900EA9136 /* Image_LookupUITests.swift */,
+				AF469D1F1C82BF5900EA9136 /* Info.plist */,
+			);
+			path = "Image-LookupUITests";
+			sourceTree = "<group>";
+		};
+		AF469D2D1C82BF8200EA9136 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				AF469D2E1C82BF8200EA9136 /* LaunchScreen.xib */,
+				AF469D301C82BF8200EA9136 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		C7A81DD214E9AAB310B8ADAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39221A3C7F68F1F47A6009EF /* Pods.debug.xcconfig */,
+				0047A1A2C4E8F74EE66399F6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF469CF91C82BF5700EA9136 /* Image-Lookup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF469D221C82BF5900EA9136 /* Build configuration list for PBXNativeTarget "Image-Lookup" */;
+			buildPhases = (
+				ED46FBBFCF1364340A648208 /* Check Pods Manifest.lock */,
+				AF469CF61C82BF5700EA9136 /* Sources */,
+				AF469CF71C82BF5700EA9136 /* Frameworks */,
+				AF469CF81C82BF5700EA9136 /* Resources */,
+				93F6394B9831109BAF4835DA /* Embed Pods Frameworks */,
+				147B0B8EC971084A1A467F32 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Image-Lookup";
+			productName = "Image-Lookup";
+			productReference = AF469CFA1C82BF5700EA9136 /* Image-Lookup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF469D0D1C82BF5900EA9136 /* Image-LookupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF469D251C82BF5900EA9136 /* Build configuration list for PBXNativeTarget "Image-LookupTests" */;
+			buildPhases = (
+				AF469D0A1C82BF5900EA9136 /* Sources */,
+				AF469D0B1C82BF5900EA9136 /* Frameworks */,
+				AF469D0C1C82BF5900EA9136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF469D101C82BF5900EA9136 /* PBXTargetDependency */,
+			);
+			name = "Image-LookupTests";
+			productName = "Image-LookupTests";
+			productReference = AF469D0E1C82BF5900EA9136 /* Image-LookupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF469D181C82BF5900EA9136 /* Image-LookupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF469D281C82BF5900EA9136 /* Build configuration list for PBXNativeTarget "Image-LookupUITests" */;
+			buildPhases = (
+				AF469D151C82BF5900EA9136 /* Sources */,
+				AF469D161C82BF5900EA9136 /* Frameworks */,
+				AF469D171C82BF5900EA9136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF469D1B1C82BF5900EA9136 /* PBXTargetDependency */,
+			);
+			name = "Image-LookupUITests";
+			productName = "Image-LookupUITests";
+			productReference = AF469D191C82BF5900EA9136 /* Image-LookupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF469CF21C82BF5700EA9136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Amog Kamsetty";
+				TargetAttributes = {
+					AF469CF91C82BF5700EA9136 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 35G8MWG9T9;
+					};
+					AF469D0D1C82BF5900EA9136 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 35G8MWG9T9;
+						TestTargetID = AF469CF91C82BF5700EA9136;
+					};
+					AF469D181C82BF5900EA9136 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 35G8MWG9T9;
+						TestTargetID = AF469CF91C82BF5700EA9136;
+					};
+				};
+			};
+			buildConfigurationList = AF469CF51C82BF5700EA9136 /* Build configuration list for PBXProject "Image-Lookup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF469CF11C82BF5600EA9136;
+			productRefGroup = AF469CFB1C82BF5700EA9136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF469CF91C82BF5700EA9136 /* Image-Lookup */,
+				AF469D0D1C82BF5900EA9136 /* Image-LookupTests */,
+				AF469D181C82BF5900EA9136 /* Image-LookupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF469CF81C82BF5700EA9136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF469D441C82C32200EA9136 /* Podfile in Resources */,
+				AF469D3F1C82BF8200EA9136 /* Images.xcassets in Resources */,
+				AF469D3A1C82BF8200EA9136 /* LaunchScreen.xib in Resources */,
+				AF469D3B1C82BF8200EA9136 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF469D0C1C82BF5900EA9136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF469D171C82BF5900EA9136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		147B0B8EC971084A1A467F32 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93F6394B9831109BAF4835DA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED46FBBFCF1364340A648208 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF469CF61C82BF5700EA9136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF469D421C82BF8200EA9136 /* SearchViewController.swift in Sources */,
+				AF469D391C82BF8200EA9136 /* AppDelegate.swift in Sources */,
+				AF469D3E1C82BF8200EA9136 /* ImageFeedTableViewCell.swift in Sources */,
+				AF469D3D1C82BF8200EA9136 /* ImageFeed.swift in Sources */,
+				AFEDDAAE1C82D0FD00951071 /* SavedPhotosTableViewCell.swift in Sources */,
+				AF469D3C1C82BF8200EA9136 /* ImageDetailViewController.swift in Sources */,
+				AF469D411C82BF8200EA9136 /* ResultsTableViewController.swift in Sources */,
+				AFEDDAAC1C82C81E00951071 /* SavedPhotosTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF469D0A1C82BF5900EA9136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF469D131C82BF5900EA9136 /* Image_LookupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF469D151C82BF5900EA9136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF469D1E1C82BF5900EA9136 /* Image_LookupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF469D101C82BF5900EA9136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF469CF91C82BF5700EA9136 /* Image-Lookup */;
+			targetProxy = AF469D0F1C82BF5900EA9136 /* PBXContainerItemProxy */;
+		};
+		AF469D1B1C82BF5900EA9136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF469CF91C82BF5700EA9136 /* Image-Lookup */;
+			targetProxy = AF469D1A1C82BF5900EA9136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF469D2E1C82BF8200EA9136 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF469D2F1C82BF8200EA9136 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		AF469D301C82BF8200EA9136 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF469D311C82BF8200EA9136 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF469D201C82BF5900EA9136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF469D211C82BF5900EA9136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF469D231C82BF5900EA9136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39221A3C7F68F1F47A6009EF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Image-Lookup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amogkamsetty.co.Image-Lookup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Image-Lookup/Image-Lookup-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF469D241C82BF5900EA9136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0047A1A2C4E8F74EE66399F6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Image-Lookup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amogkamsetty.co.Image-Lookup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Image-Lookup/Image-Lookup-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		AF469D261C82BF5900EA9136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Image-LookupTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amogkamsetty.co.Image-LookupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Image-Lookup.app/Image-Lookup";
+			};
+			name = Debug;
+		};
+		AF469D271C82BF5900EA9136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Image-LookupTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amogkamsetty.co.Image-LookupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Image-Lookup.app/Image-Lookup";
+			};
+			name = Release;
+		};
+		AF469D291C82BF5900EA9136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Image-LookupUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amogkamsetty.co.Image-LookupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Image-Lookup";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AF469D2A1C82BF5900EA9136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Image-LookupUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amogkamsetty.co.Image-LookupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Image-Lookup";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF469CF51C82BF5700EA9136 /* Build configuration list for PBXProject "Image-Lookup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF469D201C82BF5900EA9136 /* Debug */,
+				AF469D211C82BF5900EA9136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF469D221C82BF5900EA9136 /* Build configuration list for PBXNativeTarget "Image-Lookup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF469D231C82BF5900EA9136 /* Debug */,
+				AF469D241C82BF5900EA9136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF469D251C82BF5900EA9136 /* Build configuration list for PBXNativeTarget "Image-LookupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF469D261C82BF5900EA9136 /* Debug */,
+				AF469D271C82BF5900EA9136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF469D281C82BF5900EA9136 /* Build configuration list for PBXNativeTarget "Image-LookupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF469D291C82BF5900EA9136 /* Debug */,
+				AF469D2A1C82BF5900EA9136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF469CF21C82BF5700EA9136 /* Project object */;
+}
